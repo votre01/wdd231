@@ -2,10 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Trevor Ngwenya - WDD 231 - Web Frontend Development</title>
+    <meta
+      name="description"
+      content="This is the home page for the WDD 231 - Web Frontend Development course assignment portal page by Trevor Ngwenya"
+    />
+    <meta name="author" content="Trevor Ngwenya" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/links.js" defer></script>
   </head>
   <body>
-    <div>Hello</div>
+    <header>
+      <img src="images/trevor.webp" alt="Trevor Ngwenya" />
+      <h1>Trevor Ngwenya</h1>
+      <div id="mode">☑️</div>
+    </header>
+
+    <a id="menu" href="#"></a>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html" title="Home" class="active">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li>
+          <a href="https://github.com/votre01/">GitHub Profile</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/trevorngwenya/">LinkedIn</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 id="mainHeader">Home</h1>
+      <section class="card">
+        <h3>Learning Activities</h3>
+        <ul id="lessonLinks"></ul>
+      </section>
+
+      <section class="card">
+        <h3>Kilimanjaro, Tanzania</h3>
+        <figure>
+          <img src="images/kilimanjaro.png" alt="mount kilimanjaro" />
+          <figcaption>Mount Kilimanjaro</figcaption>
+        </figure>
+      </section>
+
+      <section id="coursesSection" class="card">
+        <h3>Webb and Computer Programming Certificate</h3>
+        <div id="coursesMenu">
+          <button id="allCoursesBtn">All</button>
+          <button id="cseBtn">CSE</button>
+          <button id="wddBtn">WDD</button>
+        </div>
+        <ul id="coursesList"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;<span id="year"></span> 😀Trevor Ngwenya 😀Zimbabwe</p>
+      <p id="lastModified">Last Modification:</p>
+    </footer>
   </body>
 </html>
