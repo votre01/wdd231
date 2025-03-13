@@ -154,8 +154,9 @@ main .card figure img {
     border: 1px solid var(--green-tint);
 }
 
-main h1 {
-    color: var(--gray-tint);
+h1 {
+    margin-block: 0.67em;
+    font-size: 2em;
 }
 
 .card h2 {
