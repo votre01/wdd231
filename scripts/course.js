@@ -82,6 +82,7 @@ const selectAllBtn = document.querySelector('#allCoursesBtn');
 const selectCseBtn = document.querySelector('#cseBtn');
 const selectWddBtn = document.querySelector('#wddBtn');
 let coursesList = document.querySelector('#coursesList');
+let coursesTotal = document.querySelector('#coursesTotal');
 
 function listAllCourses(coursesArr) {
     coursesList.innerText = null;
@@ -89,9 +90,22 @@ function listAllCourses(coursesArr) {
         let courseItem = document.createElement('li');
         courseItem.innerText = `${course.subject} ${course.number}`;
         course.completed ? courseItem.classList.add("courseCompleted") : courseItem.classList.add("courseIncomplete");
-        console.log(courseItem);        
+        console.log(courseItem);
         coursesList.append(courseItem);
     });
+    totalCredits(coursesArr);
+}
+
+function getSum(total, num) {
+    total += num;
+    return total;
+}
+function totalCredits(coursesArr) {
+    let creditsSum = coursesArr.reduce(
+        (accumulator, currentValue) => accumulator + currentValue.credits, 0
+    );
+    coursesTotal.innerText = null;
+    coursesTotal.append(`Total number of credits: ${creditsSum}`);
 }
 
 function listCseCourses() {
