@@ -154,6 +154,10 @@ main .card figure img {
     border: 1px solid var(--green-tint);
 }
 
+main h1 {
+    color: var(--gray-tint);
+}
+
 .card h3 {
     background-color: var(--gray-tint);
     color: var(--green-tint);
