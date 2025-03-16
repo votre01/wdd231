@@ -1,0 +1,93 @@
+{
+    "members" : [
+        {    
+            "name" : "Trevor Ngwenya",
+            "address": "22 Lawson, Milton Park",
+            "phone" : "0771728515",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/male-profile.webp",
+            "membershipLevel" : "Non-Profit"
+        },
+
+        {    
+            "name" : "Peter Tichagwa",
+            "address": "45 Bristole, Glenview",
+            "phone" : "5557286600",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/male-profile.webp",
+            "membershipLevel" : "Silver"
+        },
+
+        {    
+            "name" : "Nolwazi Zigomo",
+            "address": "09 Langley Drive, Mt Pleasant",
+            "phone" : "5551710715",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/female-profile.webp",
+            "membershipLevel" : "Bronze"
+        },
+
+        {    
+            "name" : "Tendai Tasiya",
+            "address": "12 Dorset Rd, Belvedere",
+            "phone" : "555928505",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/female-profile.webp",
+            "membershipLevel" : "Gold"
+        },
+
+        {    
+            "name" : "Talent Ncube",
+            "address": "56 George Road, Highlands",
+            "phone" : "555922801",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/male-profile.webp",
+            "membershipLevel" : "Gold"
+        },
+
+        {    
+            "name" : "Samantha Majoni",
+            "address": "10 Bingley, Asdown Park",
+            "phone" : "5557226801",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/female-profile.webp",
+            "membershipLevel" : "Silver"
+        },
+
+        {    
+            "name" : "Anesu Moyo",
+            "address": "16 Parklane, Borrowdale",
+            "phone" : "5557217200",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/male-profile.webp",
+            "membershipLevel" : "Silver"
+        },
+
+        {    
+            "name" : "Kudzie Lina",
+            "address": "67 May Road, Graystone Park",
+            "phone" : "5557286600",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/female-profile.webp",
+            "membershipLevel" : "Bronze"
+        },
+
+        {    
+            "name" : "Brian George",
+            "address": "31 Tolkein Road, Graystone Park",
+            "phone" : "5557286600",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/male-profile.webp",
+            "membershipLevel" : "Silver"
+        },
+
+        {    
+            "name" : "Elena Green",
+            "address": "98 Aloha Drive, Mainland Park",
+            "phone" : "5557282319",
+            "website" : "https://votre01.github.io/wdd231/",
+            "profilePic" : "images/female-profile.webp",
+            "membershipLevel" : "Gold"
+        }
+    ]
+}
