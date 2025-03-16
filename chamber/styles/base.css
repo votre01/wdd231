@@ -166,6 +166,11 @@ main .mainContent {
     border-radius: .3rem;
 }
 
+main h1 {
+    padding-top: 1.4rem;
+    font-size: 1.4rem;
+}
+
 .banner .time {
     font-family: var(--heading-font);
     font-weight: 700;
