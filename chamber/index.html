@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harare Chamber of Commerce | Trevor NgwenyaWDD 231</title>
+    <meta name="description" content="This is the Chamber of Commerce Home page for the WDD 231 - Web Frontend Development course by Trevor Ngwenya">
+    <meta name="author" content="Trevor Ngwenya">
+    <meta property="og:title" content="Trevor Ngwenya - Chamber of Commerce Home page - WDD 231 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/city-of-harare-small.webp">
+    <meta property="og:url" content="https://votre01.github.io/wdd231/">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <img class="mainLogo" src="images/business-icon.png" alt="Harare chamber of commerce logo">
+        <h1>Harare Chamber of Commerce</h1>               
+    </header>
+
+    <a href="#" id="menu"></a>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" title="Home" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="hero">
+            <img src="images/city-of-harare-large.webp" alt="Hero city of Harare">            
+            <div class="cta">
+                <h2>Join us</h2>
+                <p>We invite you to join us and become part of our vibrant business community. Together, we can achieve great things!</p>
+                <a href="join.html">Join chamber</a>
+            </div>
+        </section>
+
+        <section class="mainContent">
+            <div class="info" id="currentEvents">
+                <h2>Current Events</h2>
+                <p>Welcome to our Chamber of Commerce! We are a group of local business owners who are dedicated to promoting and protecting the interests of our members and the community. Our goal is to create a thriving business environment that benefits everyone in our area. We offer a variety of services and resources to help our members succeed, including networking events, educational programs, and advocacy efforts.</p>
+            </div>
+            
+            <div class="banner" id="bann"><h3>Meet and greet</h3>
+                <a href="#bann" id="closeAd">❌</a>
+                <p>Attend the chamber of commerce meet and greet on Wednesdays. All visitors are welcome.</p>
+                <p class="time">Time: 19:00 Hrs </p>
+            </div>
+
+            <div class="card">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quaerat maxime ipsa aliquid quidem commodi animi impedit necessitatibus!</p>
+            </div>
+            <div class="card">
+                <h3>Heading</h3>
+                <p> </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quaerat maxime ipsa aliquid quidem commodi animi impedit necessitatibus!</p>
+            </div>
+            <div class="card">
+                <h3>Weather</h3>
+                <h4>Harare</h4>
+                <h5>Current</h5>
+                <div id="weatherInfo"></div>
+                <h5>3 day forecast</h5>
+                <div id="forecastInfo"></div>
+                
+            </div>
+        </section>
+
+        <section class="mainContent" id="spotSelection">
+            <h2>Spotlights</h2>
+            
+            <div class="card">
+                <h3>Heading</h3>
+                <img src="images/harare-rock-large.webp" alt="Harare rock sight">
+                <p> </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quaerat maxime ipsa aliquid quidem commodi animi impedit necessitatibus!</p>                
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> 😀Trevor Ngwenya 😀Zimbabwe</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>

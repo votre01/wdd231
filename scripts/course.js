@@ -105,7 +105,7 @@ function totalCredits(coursesArr) {
         (accumulator, currentValue) => accumulator + currentValue.credits, 0
     );
     coursesTotal.innerText = null;
-    coursesTotal.append(`Total number of credits: ${creditsSum}`);
+    coursesTotal.append(`Total number of credits: ${creditsSum}`);  
 }
 
 function listCseCourses() {
