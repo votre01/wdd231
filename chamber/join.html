@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harare Chamber of Commerce | Trevor Ngwenya | Join</title>
+    <meta name="description" content="This is the Chamber of Commerce Join page for the WDD 231 - Web Frontend Development course by Trevor Ngwenya">
+    <meta name="author" content="Trevor Ngwenya">
+    <meta property="og:title" content="Trevor Ngwenya - Chamber of Commerce Join page - WDD 231 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/harare-city-small.webp">
+    <meta property="og:url" content="https://votre01.github.io/wdd231/chamber/join.html">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img class="mainLogo" src="images/business-icon.png" alt="Harare chamber of commerce logo">
+        <h1>Harare Chamber of Commerce</h1>               
+    </header>
+
+    <a href="#" id="menu"></a>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" title="Home" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ul>
+    </nav>
+    
+    <main class='join'>
+        <h1>Join Harare Chamber of Commerce</h1>
+        <div class="benefits">
+            <h3>Membership Benefits</h3>
+            <p>Our Chamber is committed to supporting the growth and success of businesses in our community. We believe that by working together, we can create a stronger local economy that benefits everyone. Whether you are a small business owner or part of a larger corporation, our chamber offers a variety of benefits to businesses. Some of the benefits include: </p>
+            <ul>
+                <li>Discounts on fitness, travel, dining, and shows.</li>
+                <li>Referrals and networking opportunities.</li>
+                <li>Group insurance plan for small to midsize businesses, which offers health and dental insurance, among other products and services, with flexible, stable, and affordable rates.</li>
+            </ul>
+        </div>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Member Information</legend>
+                <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                <div class="top" id="titleMessage"></div>
+                <label class="top">Title <input type="text" id="title" name="title"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="ngw21001@byui.edu" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Organization* <input type="text" id="organization" name="organization" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Selection</legend>
+                <label class="top">Membership Level
+                    <select name="subject">
+                        <option value="">Select Membership &#9662;</option>
+                        <option value="np">NP (Non-profit Free)</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </label>
+                <label class="top">Describe your business<textarea id="description" name="description"></textarea></label>
+                
+                <label class="top"><input type="hidden" id="timestamp" name="timestamp"></label>
+            </fieldset>
+            
+            <input type="submit" value="Join Chamber" class="submitBtn">
+
+        </form>
+          
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> 😀Trevor Ngwenya 😀Zimbabwe</p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
