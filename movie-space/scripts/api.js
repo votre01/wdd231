@@ -42,7 +42,7 @@ export async function getMovieDetails(movieId) {
 
 export async function getMoviesByGenre(genreId) {
   const endpoint = '/discover/movie';
-  const params = { with_genres: genreId, language: 'en-US'};
+  const params = { with_genres: genreId, language: 'en-US' };
   return fetchData(endpoint, params);
 }
 
